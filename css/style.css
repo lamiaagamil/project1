@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 4000px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: blue;
+    z-index: 10;
+    opacity: 0.8;
+   
+}
+.list1{
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    
+}
+
+.list1  li{
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.list1 li a {
+    text-decoration: none;
+    color: white;
+}
+.img1{
+    width:200px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 40px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/desktop-wallpaper-quran-motion-effekt-amazing-backgrounds-islamic-template-video-39.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}   
+
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(41, 30, 243, 0.1);
+}
+.home-content{
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    
+}
+.home-title{
+    color: white;
+    font-size:60px ;
+
+
+}
+.home-p{
+    color: rgb(216, 216, 216);
+    font-size: 30px;
+
+}
+.home-btn{
+    width: 180px;
+    padding: 15px 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition-duration: 0.7s;
+}
+.home-btn:hover {
+   background-color: blue;
+   color: white;
+}
+.section2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 78, 23);
+    font-weight: bold;
+}
+.welcome-container{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+   
+   
+}
+.welcome-content{
+    overflow: auto;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: rgb(21, 53, 21);
+    padding-top: 30px;
+   
+   
+   
+}
+
+
+
+.trial{
+    float: left;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-left: 2.5%;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+  
+}
+.trial::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 1s;
+   
+}
+    
+.trial:hover::after {
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    
+
+
+}
+   
+   
+
+.teacher{
+    float: left;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-left: 5%;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+
+}
+.teacher::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 1s;
+   
+}
+    
+.teacher:hover::after {
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    
+
+
+}
+.money{
+    float: left;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-left: 5%;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+    
+
+}
+.money::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 1s;
+   
+}
+    
+.money:hover::after {
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    
+
+
+}
+
+.certified{
+    float: left;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0 2.5% 0 5%;
+    background-color: rgb(236, 236, 236);
+    position: relative;
+    
+}
+.certified::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 1s;
+   
+}
+    
+.certified:hover::after {
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    
+
+
+}
+.p-trial{
+    margin-top: 50px;
+    
+
+}
+.p-teacher{
+    margin-top: 50px;
+
+}
+.p-money{
+    margin-top: 50px;
+
+}
+.p-certified{
+    margin-top: 50px;
+
+}
+.fa-solid{
+    color: goldenrod;
+    font-size: 50px;
+}
+.section3{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 120px;
+    color: rgb(23, 78, 23);
+    font-weight: bold;
+}
+.courses-container{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    
+   
+   
+}
+.courses-content{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+   
+    padding: 0; 
+    text-align: center;
+   
+
+}
+.islam-courses{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(23, 78, 23);
+     
+}
+.teaching-quraan{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgb(23, 78, 23);
+
+
+}
+.teaching-arabic{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgb(23, 78, 23);
+
+}
+.islam-courses-h3{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.islam-courses-p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+
+}
+.teaching-quraan-h3{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+.teaching-quraan-p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+
+}
+.teaching-arabic-h3{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+.teaching-arabic-p{
+
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.section4{
+
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(23, 78, 23);
+    font-weight: bold;
+}
+.our-offers-container{
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    
+
+}
+.our-offers-content{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-color: blanchedalmond;
+    padding: 0; 
+    text-align: center;
+
+}
+.family-package{
+    float: left;
+    width: 45%;
+    height: 400px;
+    margin-right: 10%;
+
+
+}
+.friendship-package{
+    float: left;
+    width: 45%;
+    height: 400px;
+
+
+}
+.family-package-img{
+
+    width: 100%;
+    height: 400px;
+}
+.friendship-package-img{
+   width: 100%;
+    height: 400px;
+
+}
